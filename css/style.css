@@ -185,7 +185,6 @@ footer .logo {
 
 .section-feature .list-title {
   color: var(--title-text-colour);
-  font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
   text-transform: uppercase;
@@ -290,7 +289,6 @@ footer .logo {
 .name-example .list-title {
   color: #ffffff;
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
   text-align: center;
   text-transform: uppercase;
