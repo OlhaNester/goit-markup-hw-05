@@ -454,6 +454,23 @@ p {
   max-width: 100%;
   height: auto;
 }
+.gallery-picture {
+  position: relative;
+}
+.description {
+font-size: 18px;
+line-height: 1.56;
+color: #FFFFFF;
+padding-top: 63px; 
+padding-bottom: 63px;
+padding-left: 24px;
+padding-right: 24px;
+background-color: rgba(33, 150, 243, 0.9);
+position: absolute;
+top: 0;
+width: 100%;
+height: 100%;
+}
 
 .portfolio .filter + .filter {
   margin-left: 8px;
@@ -492,7 +509,7 @@ p {
 .section-clients {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* background-color:var(--primary-background-color); */
+ 
 }
 .list-clients {
   display: flex;
@@ -508,9 +525,7 @@ p {
   box-sizing: border-box;
   border-radius: 4px;
 }
-/* .clients-item:hover {
-  border: 1px solid #2196f3;
-} */
+
 .clients-link {
   display: flex;
   justify-content: center;
@@ -522,6 +537,7 @@ p {
   width: 44.27px;
   height: 49.23px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients-item:hover {
   border: 1px solid var(--accent-colour);
@@ -548,27 +564,32 @@ p {
   width: 40px;
   height: 52px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .clients3 {
   width: 41px;
   height: 42.6px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients4 {
   width: 79.66px;
   height: 42.02px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients5 {
   width: 59px;
   height: 47px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .clients6 {
   width: 88.48px;
   height: 45.44px;
   fill: #afb1b8;
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .container-adress {
