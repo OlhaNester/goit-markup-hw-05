@@ -311,12 +311,14 @@ border: 1px solid rgba(0, 0, 0, 0.1);
 box-sizing: border-box;
 }
 
-.close-button::after {
+/* .close-button::after {
   content: " ";
   width: 18px;
   height: 18px;
   url("./index_images/icons/close.svg")
-}
+  fill: black;
+  
+} */
 
 
 .feature-icon {
