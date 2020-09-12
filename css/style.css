@@ -126,13 +126,14 @@ footer .logo {
 }
 .link.current:after {
   position: absolute;
+  left: 0;
+  bottom: 0;
   content: "";
   width: 100%;
   height: 4px;
   background-color: var(--accent-colour);
   
-  left: 0;
-  bottom: 0;
+  
 }
 .section-title {
   color: var(--title-text-colour);
@@ -270,6 +271,8 @@ footer .logo {
   font-family: inherit;
   /* outline: 1px solid red; */
 }
+
+
 .backdrop {
   position: fixed;
   top: 0;
@@ -290,7 +293,7 @@ footer .logo {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-
+  
   width: 528px;
   height: 580px;
   background: #ffffff;
@@ -300,7 +303,7 @@ footer .logo {
 }
 
 .close-button {
-  position: absolute;
+    position: absolute;
   top: 6px;
   right: 6px;
   width: 30px;
@@ -309,16 +312,21 @@ footer .logo {
   background: #FFFFFF;
 border: 1px solid rgba(0, 0, 0, 0.1);
 box-sizing: border-box;
+outline: none;
 }
 
-/* .close-button::after {
-  content: " ";
-  width: 18px;
-  height: 18px;
-  url("./index_images/icons/close.svg")
-  fill: black;
-  
-} */
+.close-button::after {
+  display: inline-block;
+  content: "";
+  width: 11px;
+  height: 11px;
+  background-image: url("../index_images/icons/close.svg");
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: contain;
+  /* background-color: red; */
+    
+} 
 
 
 .feature-icon {
